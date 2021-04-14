@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- meta tags and title -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Title</title>
+
+  <!-- external and internal CSS -->
+  <link rel="stylesheet" href="styles.css" media="all">
+  <style>
+    /* in-file CSS here */
+  </style>
+
+  <!-- external and internal JavaScript -->
+  <script src="scripts.js" defer></script>
+  <script>
+    // in-page JavaScript here
+  </script>
+
+</head>
+
+<body>
+
+  <div id="nav">
+    <a href="#" onclick="Lasagna.displayRecipe();">World's Best Lasagna</a>
+    <a href="#" onclick="Chicken.displayRecipe();">Lemon Chicken Piccata</a>
+    <a href="#" onclick="Pretzel.displayRecipe();">Soft Pretzels</a>
+  </div>
+
+  <div id="header">
+    <h1 id="title"></h1>
+    <h3 id="contributor"></h3>
+  </div>
+
+
+  <h2> "It takes a little work, but it is worth it." </h2>
+
+  <!-- <img src="https://cdn.pixabay.com/photo/2017/02/15/15/17/meal-2069021_1280.jpg" alt="lasagna"> -->
+
+
+
+  <!-- "onClick" is the action, "showIngredients" is the outcome of clicking in JS -->
+  <div id="ingredients">
+    <h4>
+      Ingredients
+    </h4>
+    <ul>
+
+    </ul>
+  </div>
+
+
+  <!-- "onClick" is the action, "showEquipment" is the outcome of clicking in JS -->
+  <div id="equipment">
+    <h4>
+      Equipment
+    </h4>
+    <ul>
+
+    </ul>
+  </div>
+
+  <!-- "onClick" is the action, "showDirections" is the outcome of clicking in JS -->
+  <div id="directions">
+    <h4>
+      Directions
+    </h4>
+    <ol>
+
+    </ol>
+  </div>
+
+  <!-- new HTML via JS -->
+  <div id="enjoy"></div>
+
+  <p>(Original recipe at <a href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/">AllRecipes.com</a>.)</p>
+
+</body>
+
+</html>
